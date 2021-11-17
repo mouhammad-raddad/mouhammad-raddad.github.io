@@ -100,7 +100,7 @@ main {
   text-align: center;
   padding-top: 20px;
 }
-.grid-item a{
+.grid-item a {
   text-decoration: none;
   color: white;
 }
@@ -109,7 +109,8 @@ main {
   width: 100%;
 }
 .project {
-  border-radius: 2px;}
+  border-radius: 2px;
+}
 .code {
   color: #0f171d;
   transition: color 0.3s ease-out;

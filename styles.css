@@ -1,0 +1,123 @@
+body {
+  /* background-color: #162129; */
+  margin: 0;
+  font-family: 'Clear Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: rgb(236, 248, 255);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100 vh;
+  margin: 0 px;
+  padding: 0 px;
+  max-width: 100 vw;
+  background-color: rgb(22, 33, 41);
+}
+nav ul {
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0f171d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+}
+nav li {
+  float: right;
+}
+nav li a {
+  display: block;
+  color: white;
+  padding: 5px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-align: center;
+}
+.firstlist {
+  padding-left: 150px !important;
+}
+.secondlist {
+  padding-right: 50px;
+}
+nav li a:hover:not(.active) {
+  background-color: #162129;
+}
+header h1 {
+  color: #a2fab3;
+  font-size: 50px;
+  line-height: 152%;
+  font-weight: 700;
+}
+header p {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 600 px;
+  line-height: 180%;
+}
+header {
+  padding-top: 200px;
+  padding-left: 150px;
+}
+main:not(.projects-section-header) {
+  padding-left: 150px;
+  padding-top: 100px;
+}
+.projects-section-header {
+  max-width: 640px;
+  border-bottom: 0.2rem solid white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+.grid-item {
+  border: 1px solid #0f171d;
+  background-color: #0f171d;
+  /* padding: 20px;
+  font-size: 30px;
+  text-align: center; */
+}
+.project-title {
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 20px;
+}
+.grid-item a {
+  text-decoration: none;
+  color: white;
+}
+.project-image {
+  height: calc(100% - 5rem);
+  width: 100%;
+}
+.project {
+  border-radius: 2px;
+}
+.code {
+  color: #0f171d;
+  transition: color 0.3s ease-out;
+}
+.project:hover .code {
+  color: #a2fab3;
+}
+footer {
+  background-color: #0f171d;
+  padding-left: 150px;
+  /* width: 100%; */
+  height: 15%;
+  text-align: start;
+  padding-top: 70px;
+}

@@ -25,11 +25,9 @@ nav ul {
   width: 100%;
   height: 10%;
 }
-
 nav li {
   float: right;
 }
-
 nav li a {
   display: block;
   color: white;
@@ -44,11 +42,9 @@ nav li a {
 .secondlist {
   padding-right: 50px;
 }
-
 nav li a:hover:not(.active) {
   background-color: #162129;
 }
-
 header h1 {
   color: #a2fab3;
   font-size: 50px;
@@ -65,22 +61,22 @@ header {
   padding-top: 200px;
   padding-left: 150px;
 }
-main {
+main:not(.projects-section-header) {
   padding-left: 150px;
   padding-top: 100px;
 }
 .projects-section-header {
-  max-width: 360px;
-  line-height: 2rem;
+  max-width: 640px;
   border-bottom: 0.2rem solid white;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  
 }
 .container {
-  /* display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 200px 200px 200px;
-  gap: 15px 15px; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 0fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
@@ -94,7 +90,6 @@ main {
   font-size: 30px;
   text-align: center; */
 }
-
 .project-title {
   font-size: 1rem;
   text-align: center;
@@ -116,7 +111,7 @@ main {
   transition: color 0.3s ease-out;
 }
 .project:hover .code {
-  color: #ff7f50;
+  color: #a2fab3;
 }
 footer {
   background-color: #0f171d;

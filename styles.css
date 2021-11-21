@@ -27,7 +27,7 @@ body {
 }
 .nav-list .list-item {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 10px 10px;
 }
 .navbar a {
   color: white;
@@ -90,7 +90,7 @@ header {
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  padding-top: 200px;
+  padding-top: 120px;
   padding-bottom: 50px;
 }
 main {
@@ -152,7 +152,17 @@ main {
 }
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  text-align: start;
+  align-items: center;
   background-color: #0f171d;
   padding: 30px 30px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.links a:hover {
+  color: #a2fab3;
 }
